@@ -1,0 +1,28 @@
+ML - UniVarite Linear Regression
+
+Hypothesis:
+
+h(x) = O0 + O1.x                        <-  Line Function used for 'Predicting' the outcome based on the input x.
+
+Cost Function:
+
+J(O0, O1) = 1/2m [h(x(i)) - y(i)] ^ 2   <-  Computes 'Squared Difference' between 'Predicated' and 'Actual Value' for each input
+                                            and computes the mean for approximation of the errors.
+                                            
+
+
+Choosing the values for the parameters O0 and O1...
+
+Minimize O0 and O1 using Gradient Descent...
+
+O0 = O0 - (R)   d   J(O0,O1)        <- Partial Differentiation of O0, where (R) is the 'Learning Rate'
+                ---
+                d O0
+            
+O1 = O1 - (R)   d   J(O0,O1)        <- Partial Differentiation of O1, where (R) is the 'Learning Rate'
+                ---
+                d O1
+
+Oj = Oj - (R)   d    J(O0,O1)       <- Partial Differentiation of Oj, where (R) is the 'Learning Rate'
+                ---
+                d Oj
