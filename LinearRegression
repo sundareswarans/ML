@@ -26,3 +26,7 @@ O1 = O1 - (R)   d   J(O0,O1)        <- Partial Differentiation of O1, where (R) 
 Oj = Oj - (R)   d    J(O0,O1)       <- Partial Differentiation of Oj, where (R) is the 'Learning Rate'
                 ---
                 d Oj
+
+TBD:
+Still needs to workout many details...
+

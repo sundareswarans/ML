@@ -1,0 +1,5 @@
+ML Concepts:
+Linear Regression
+Classification
+SVM
+
