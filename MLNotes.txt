@@ -1,5 +1,8 @@
 ML Concepts:
 Linear Regression
 Classification
+
+C
+
 SVM
 
